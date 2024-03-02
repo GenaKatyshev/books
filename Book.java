@@ -11,6 +11,9 @@ class Book {
     int getPage() {
         return this.p;
     }
+    void setPage(int num) {
+        this.p = num;
+    }
     private int testPage(int pg) {
         if (pg > 0) return pg;
         else return -pg;
